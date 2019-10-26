@@ -9,6 +9,17 @@
   <link href="css/materialicons.css" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -29,7 +40,6 @@
           <a href="#deskribapena" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Ikusi</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
@@ -38,8 +48,7 @@
 
   <div class="container">
     <div class="section">
-      <div align="center"><h2> Erabiliko ditugun tresnak </h2></div>
-
+        <div align="center"><h2> Erabiliko ditugun tresnak </h2></div>
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
@@ -79,24 +88,55 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper"  id="deskribapena">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="header col s12 light">Deskribapena</h3>
-          <p class="left-align light">
+          <h2 class="header col s12 light">Deskribapena</h2>
+          <p class="light" align="justify"><font size=4>
             Ibilgailua aparkatzeko erraztuko duen gailu bat diseinatuko dugu, beste edozein objektuarekiko dagoen distantzia jakinaraziko digu. Horretarako, objektu batekiko distantzia 10 cm baino txikiagoa denean burrunbagailuak aldizkako soinu bat igorri dezan programatuko dugu, objektura gerturatzen gozen heinean soinuaren maiztasuna handitzen joango delarik.
-            Programatzeko Ardublock erabiliko da.
+            Programatzeko Ardublock erabiliko da.</font>
           </p>          
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background4.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container" id="deskribapena">
-    <div class="section">
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
 
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg_arduino.png');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Helburuak</h2>
+          <p class="lead mb-0">
+          > Ikasleak elektronika interaktiboaren munduan era arin eta praktikoan trebatzea.</p>
+          <p class="lead mb-0">
+          > Elektronika eta programazio munduko oinarrizko kontzeptuak (sarrera-irteera digitalak, sentsoreak, bloke bidezko programazioa) ikastea.</p>
+          <p class="lead mb-0">> Ultrasoinuen bitartez distantziak neurtzea. </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-seinaleak.png');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Nori zuzenduta</h2>
+          <p class="lead mb-0">Arduinori sentsoreak eta eragingailuak konektatzen zaizkio ingurunea aztertzeko. Horrela, ingurunean gertatzen diren fenomenoak era kuantitatibo batean jasotzeko sentsoreak erabiliko dira, eta ingurunean zenbait ekintza egiteko eragingailuak erabiliko dira. Arduinoren laguntzaz, Fisika eta Kimika ikasgaian ikasitako kontzeptuak era kuantifikatu eta praktiko batean azter ditzakete ikasleek. Jarduera honetan ultrasoinuen bitartez distantziak neurtuko dira, sentsorearen funtzionamendua sonarren edo igorritako seinalearen oihartzuna entzuteko irauten duen denboren neurketan oinarritzen da. Mintz batek ultrasoinua igortzen du eta bigarren mintz batek oztopoan islatutako oihartzun-seinalea harrapatzen du. Beraz, uste dut Bigarren Hezkuntzan 'Fisika eta Kimika' irakasgaian landu daitekeela. </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Prototipoaren muntaia</h2>
+          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="section">
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -107,7 +147,6 @@
           </p>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -148,7 +187,9 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by ajuanena</a>
+      Eduki honek Creative Commons-en lizentzia du, eta erabilera pertsonala soilik baimentzen da. 
+      https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es
+      </a>
       </div>
     </div>
   </footer>
