@@ -1,1 +1,3 @@
 # arduino_aparkatzeko_sentsorea
+
+Ibilgailua aparkatzeko erraztuko duen gailu bat diseinatuko dugu, beste edozein objektuarekiko dagoen distantzia jakinaraziko digu. Horretarako, objektu batekiko distantzia 10 cm baino txikiagoa denean burrunbagailuak aldizkako soinu bat igorri dezan programatuko dugu, objektura gerturatzen gozen heinean soinuaren maiztasuna handitzen joango delarik. Programatzeko Ardublock erabiliko da.
